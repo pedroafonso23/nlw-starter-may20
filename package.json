@@ -1,0 +1,25 @@
+{
+  "name": "nlw-starter-may20",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroafonso23/nlw-starter-may20.git"
+  },
+  "author": "Pedro Afonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedroafonso23/nlw-starter-may20/issues"
+  },
+  "homepage": "https://github.com/pedroafonso23/nlw-starter-may20#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
