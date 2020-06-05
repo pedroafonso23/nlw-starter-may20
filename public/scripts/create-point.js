@@ -63,7 +63,7 @@ function handleSelectedItem(event) {
     // Toggle class
     itemLi.classList.toggle('selected')
 
-    const itemId = item.li.dataset.id
+    const itemId = itemLi.dataset.id
 
     // Verificar se existem itens selecionados
     // Se sim, pegar os itens selecionados
